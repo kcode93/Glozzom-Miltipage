@@ -2,7 +2,13 @@
 
 // Small devices (landscape phones, less than 768px)
 @include media-breakpoint-down(sm) {
-	//Custom Here
+	#home-heading {
+		min-height: 200px;
+	}
+
+	#info {
+		text-align: center;
+	}
 }
 
 // Medium devices (tablets, less than 992px)
