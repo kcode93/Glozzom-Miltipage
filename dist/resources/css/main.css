@@ -9295,7 +9295,7 @@ textarea.form-control-lg {
 #page-header {
   display: flex;
   align-items: center;
-  height: 350px;
+  height: 450px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/image1.jpg");
   color: white;
   background-position: 0 -360px;
@@ -9417,6 +9417,9 @@ textarea.form-control-lg {
 #newsletter form button {
   width: 100%;
   margin: 0 0.5rem; }
+
+#about .about-img {
+  margin-top: -15%; }
 
 /** Modules **/
 .dark-overlay {
