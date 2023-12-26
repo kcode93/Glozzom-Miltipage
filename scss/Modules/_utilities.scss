@@ -1,0 +1,16 @@
+.dark-overlay {
+	@include dark-overlay;
+}
+
+#videoModal {
+	.modal-header {
+		display: flex;
+		justify-content: end;
+
+		i {
+			&:hover {
+				color: $danger;
+			}
+		}
+	}
+}

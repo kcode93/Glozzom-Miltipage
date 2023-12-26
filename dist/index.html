@@ -213,6 +213,52 @@
 			</div>
 		</section>
 
+		<!--video section-->
+		<section id="video-play">
+			<div class="dark-overlay">
+				<div class="row">
+					<div class="col">
+						<div class="container p-5">
+							<a
+								href="#"
+								data-toggle="modal"
+								data-target="#videoModal"
+								data-video="https://www.youtube.com/watch?v=HB4I2CgkcCo"
+								class="video"
+							>
+								<i class="fas fa-play fa-5x"></i>
+							</a>
+							<h1 class="mt-3 fw-bold">See what we Do!</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Video Modal-->
+		<div class="modal fade" id="videoModal">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button data-dismiss="modal" class="close btn">
+							<span>
+								<i class="fa-solid fa-square-xmark fa-2x"></i>
+							</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<iframe
+							src="https://www.youtube.com/watch?v=HB4I2CgkcCo"
+							frameborder="0"
+							height="350px"
+							width="100%"
+							allowfullscreen
+						></iframe>
+					</div>
+				</div>
+			</div>
+		</div>
+
 		<!-- JQuery CDN -->
 		<script
 			src="https://code.jquery.com/jquery-3.7.1.min.js"
