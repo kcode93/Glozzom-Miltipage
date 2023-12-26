@@ -9308,5 +9308,51 @@ textarea.form-control-lg {
     border-left: lightgray 3px solid;
     font-weight: bold; }
 
+#showcase #myCarousel .carousel-item {
+  height: 500px; }
+  #showcase #myCarousel .carousel-item.carousel-img-1 {
+    background-image: url("../img/image1.jpg");
+    background-size: cover;
+    background-position: center; }
+    #showcase #myCarousel .carousel-item.carousel-img-1 .carousel-caption {
+      text-align: right; }
+    #showcase #myCarousel .carousel-item.carousel-img-1:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #000, #333);
+      opacity: 0.7; }
+  #showcase #myCarousel .carousel-item.carousel-img-2 {
+    background-image: url("../img/image2.jpg");
+    background-size: cover;
+    background-position: center; }
+    #showcase #myCarousel .carousel-item.carousel-img-2:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #000, #333);
+      opacity: 0.7; }
+  #showcase #myCarousel .carousel-item.carousel-img-3 {
+    background-image: url("../img/image3.jpg");
+    background-size: cover;
+    background-position: center; }
+    #showcase #myCarousel .carousel-item.carousel-img-3 .carousel-caption {
+      text-align: left; }
+    #showcase #myCarousel .carousel-item.carousel-img-3:before {
+      content: '';
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      background-image: linear-gradient(to bottom right, #000, #333);
+      opacity: 0.7; }
+
 /** Modules **/
 /** Media queries **/
