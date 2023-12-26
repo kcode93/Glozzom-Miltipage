@@ -9354,5 +9354,8 @@ textarea.form-control-lg {
       background-image: linear-gradient(to bottom right, #000, #333);
       opacity: 0.7; }
 
+#home-icons h3, #home-icons .h3 {
+  font-weight: bold; }
+
 /** Modules **/
 /** Media queries **/
