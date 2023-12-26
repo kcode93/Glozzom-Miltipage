@@ -9401,6 +9401,12 @@ textarea.form-control-lg {
       #video-play .dark-overlay i:hover {
         color: #0d6efd; }
 
+#newsletter form input[type='text'],
+#newsletter form input[type='email'],
+#newsletter form button {
+  width: 100%;
+  margin: 0 0.5rem; }
+
 /** Modules **/
 .dark-overlay {
   position: absolute;
@@ -9422,4 +9428,11 @@ textarea.form-control-lg {
   #home-heading {
     min-height: 200px; }
   #info {
-    text-align: center; } }
+    text-align: center; }
+  #newsletter form {
+    flex-direction: column; }
+    #newsletter form input[type='text'],
+    #newsletter form input[type='email'],
+    #newsletter form button {
+      width: 100%;
+      margin: 0.5rem 0; } }

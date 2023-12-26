@@ -9,6 +9,19 @@
 	#info {
 		text-align: center;
 	}
+
+	#newsletter {
+		form {
+			flex-direction: column;
+
+			input[type='text'],
+			input[type='email'],
+			button {
+				width: 100%;
+				margin: 0.5rem 0;
+			}
+		}
+	}
 }
 
 // Medium devices (tablets, less than 992px)
