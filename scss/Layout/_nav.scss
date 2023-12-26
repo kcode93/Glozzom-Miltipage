@@ -1,0 +1,25 @@
+#main-navbar {
+	.navbar-brand {
+		font-size: 1.5rem;
+		font-weight: bold;
+	}
+
+	.navbar-nav {
+		margin-left: auto;
+		padding: 1rem 0;
+
+		.nav-item {
+			.nav-link {
+				font-size: 1.1rem;
+				text-transform: capitalize;
+				padding: 0 0.5rem;
+				margin: 0.5rem 0;
+			}
+
+			&.active {
+				border-left: lightgray 3px solid;
+				font-weight: bold;
+			}
+		}
+	}
+}

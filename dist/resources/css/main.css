@@ -9292,5 +9292,21 @@ textarea.form-control-lg {
 
 /** Global Styles, Mixins and Functions **/
 /** Page Layouts **/
+#main-navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold; }
+
+#main-navbar .navbar-nav {
+  margin-left: auto;
+  padding: 1rem 0; }
+  #main-navbar .navbar-nav .nav-item .nav-link {
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    padding: 0 0.5rem;
+    margin: 0.5rem 0; }
+  #main-navbar .navbar-nav .nav-item.active {
+    border-left: lightgray 3px solid;
+    font-weight: bold; }
+
 /** Modules **/
 /** Media queries **/
