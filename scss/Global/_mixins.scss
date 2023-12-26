@@ -7,6 +7,12 @@
 	}
 }
 
+//Background image with Dark Overlay
+@function bg-img-dark-overlay($imagePath) {
+	@return linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+		url($imagePath);
+}
+
 //centers element right on the center, the parent needs to be Positioned relative.
 @mixin absoluteCenter {
 	position: absolute;

@@ -1,0 +1,11 @@
+#page-header {
+	display: flex;
+	align-items: center;
+	height: 350px;
+	background: bg-img-dark-overlay('../img/image1.jpg');
+	color: white;
+	background-position: 0 -360px;
+	background-attachment: fixed;
+	border-bottom: 2px #eee solid;
+	padding: 50px 0;
+}
