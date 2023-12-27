@@ -9421,6 +9421,26 @@ textarea.form-control-lg {
 #about .about-img {
   margin-top: -15%; }
 
+#about-testimonials {
+  border-bottom: 3px solid #ccc; }
+  #about-testimonials .blockquote-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0.5rem 0; }
+    #about-testimonials .blockquote-footer ul {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 1rem; }
+      #about-testimonials .blockquote-footer ul li {
+        display: inline-block;
+        list-style: none;
+        padding: 0 0.5rem; }
+
 /** Modules **/
 .dark-overlay {
   position: absolute;

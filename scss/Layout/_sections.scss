@@ -139,4 +139,30 @@
 	&-icon-boxes {
 		//
 	}
+
+	&-testimonials {
+		border-bottom: 3px solid #ccc;
+		.blockquote-footer {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			//background-color: red;
+			padding: 0.5rem 0;
+			ul {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				text-align: center;
+				//background-color: blue;
+				padding: 1rem;
+				li {
+					display: inline-block;
+					list-style: none;
+					padding: 0 0.5rem;
+				}
+			}
+		}
+	}
 }
