@@ -9303,21 +9303,22 @@ textarea.form-control-lg {
   border-bottom: 2px #eee solid;
   padding: 50px 0; }
 
-#main-navbar .navbar-brand {
-  font-size: 1.5rem;
-  font-weight: bold; }
-
-#main-navbar .navbar-nav {
-  margin-left: auto;
-  padding: 1rem 0; }
-  #main-navbar .navbar-nav .nav-item .nav-link {
-    font-size: 1.1rem;
-    text-transform: capitalize;
-    padding: 0 0.5rem;
-    margin: 0.5rem 0; }
-  #main-navbar .navbar-nav .nav-item.active {
-    border-left: #7a7979 3px solid;
+#main-navbar {
+  border-bottom: 3px solid #ccc; }
+  #main-navbar .navbar-brand {
+    font-size: 1.5rem;
     font-weight: bold; }
+  #main-navbar .navbar-nav {
+    margin-left: auto;
+    padding: 1rem 0; }
+    #main-navbar .navbar-nav .nav-item .nav-link {
+      font-size: 1.1rem;
+      text-transform: capitalize;
+      padding: 0 0.5rem;
+      margin: 0.5rem 0; }
+    #main-navbar .navbar-nav .nav-item.active {
+      border-left: #7a7979 3px solid;
+      font-weight: bold; }
 
 #showcase #myCarousel .carousel-item {
   height: 500px; }
@@ -9421,25 +9422,26 @@ textarea.form-control-lg {
 #about .about-img {
   margin-top: -15%; }
 
-#about-testimonials {
-  border-bottom: 3px solid #ccc; }
-  #about-testimonials .blockquote-footer {
+#about-testimonials .blockquote-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0.5rem 0; }
+  #about-testimonials .blockquote-footer ul {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 0.5rem 0; }
-    #about-testimonials .blockquote-footer ul {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      padding: 1rem; }
-      #about-testimonials .blockquote-footer ul li {
-        display: inline-block;
-        list-style: none;
-        padding: 0 0.5rem; }
+    padding: 1rem; }
+    #about-testimonials .blockquote-footer ul li {
+      display: inline-block;
+      list-style: none;
+      padding: 0 0.5rem; }
+
+#main-footer {
+  border-top: 3px solid #ccc; }
 
 /** Modules **/
 .dark-overlay {
