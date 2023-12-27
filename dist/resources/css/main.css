@@ -9296,12 +9296,17 @@ textarea.form-control-lg {
   display: flex;
   align-items: center;
   height: 450px;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/image1.jpg");
   color: white;
-  background-position: 0 -360px;
-  background-attachment: fixed;
   border-bottom: 2px #eee solid;
   padding: 50px 0; }
+  #page-header.about {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/image1.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed; }
+  #page-header.services {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/image2.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed; }
 
 #main-navbar {
   border-bottom: 3px solid #ccc; }
