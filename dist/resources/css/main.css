@@ -9422,6 +9422,9 @@ textarea.form-control-lg {
 #about .about-img {
   margin-top: -15%; }
 
+#about-icon-boxes .row {
+  margin-bottom: 1.5rem; }
+
 #about-testimonials .blockquote-footer {
   display: flex;
   flex-direction: column;
@@ -9471,4 +9474,8 @@ textarea.form-control-lg {
     #newsletter form input[type='email'],
     #newsletter form button {
       width: 100%;
-      margin: 0.5rem 0; } }
+      margin: 0.5rem 0; }
+  #about-icon-boxes .row {
+    margin: 0; }
+  #about-icon-boxes .card {
+    margin-bottom: 0.5rem; } }

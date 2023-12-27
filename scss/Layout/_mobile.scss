@@ -22,6 +22,18 @@
 			}
 		}
 	}
+
+	#about {
+		&-icon-boxes {
+			.row {
+				margin: 0;
+			}
+
+			.card {
+				margin-bottom: 0.5rem;
+			}
+		}
+	}
 }
 
 // Medium devices (tablets, less than 992px)
