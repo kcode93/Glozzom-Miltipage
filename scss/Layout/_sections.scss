@@ -170,19 +170,29 @@
 }
 
 #services {
-	.card {
-		margin-bottom: 0.5rem;
-		.card-title {
-			margin-top: 0.5rem;
-		}
+	&-plans {
+		.card {
+			margin-bottom: 0.5rem;
 
-		.list-group {
-			&-item {
-				i {
-					padding: 0.5 1rem;
-					margin-right: 0.5rem;
+			.card-title {
+				margin-top: 0.5rem;
+			}
+
+			.list-group {
+				&-item {
+					i {
+						padding: 0.5 1rem;
+						margin-right: 0.5rem;
+					}
 				}
 			}
+		}
+	}
+
+	&-faq {
+		.accordion-item {
+			border: 2px solid transparent;
+			margin-bottom: 0.5rem;
 		}
 	}
 }
