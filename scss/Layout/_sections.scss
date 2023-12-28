@@ -168,3 +168,21 @@
 		}
 	}
 }
+
+#services {
+	.card {
+		margin-bottom: 0.5rem;
+		.card-title {
+			margin-top: 0.5rem;
+		}
+
+		.list-group {
+			&-item {
+				i {
+					padding: 0.5 1rem;
+					margin-right: 0.5rem;
+				}
+			}
+		}
+	}
+}

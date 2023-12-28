@@ -9448,6 +9448,14 @@ textarea.form-control-lg {
       list-style: none;
       padding: 0 0.5rem; }
 
+#services .card {
+  margin-bottom: 0.5rem; }
+  #services .card .card-title {
+    margin-top: 0.5rem; }
+  #services .card .list-group-item i {
+    padding: 0.5 1rem;
+    margin-right: 0.5rem; }
+
 #main-footer {
   border-top: 3px solid #ccc; }
 
@@ -9483,4 +9491,6 @@ textarea.form-control-lg {
   #about-icon-boxes .row {
     margin: 0; }
   #about-icon-boxes .card {
+    margin-bottom: 0.5rem; }
+  #services .card-footer {
     margin-bottom: 0.5rem; } }
