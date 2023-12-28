@@ -9309,6 +9309,10 @@ textarea.form-control-lg {
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/image2.jpg");
     background-position: 0 -360px;
     background-attachment: fixed; }
+  #page-header.blog {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/image3.jpg");
+    background-position: 0 -360px;
+    background-attachment: fixed; }
 
 #main-navbar {
   border-bottom: 3px solid #ccc; }
@@ -9461,6 +9465,17 @@ textarea.form-control-lg {
 #services-faq .accordion-item {
   border: 2px solid transparent;
   margin-bottom: 0.5rem; }
+
+#blog .card {
+  border: 2px solid #ccc; }
+  #blog .card img {
+    transition: all 0.5s ease-in-out; }
+    #blog .card img:hover {
+      transform: scale(1.1); }
+  #blog .card .card-body {
+    border-top: 2px solid #ccc; }
+    #blog .card .card-body h4, #blog .card .card-body .h4 {
+      font-weight: bold; }
 
 #main-footer {
   border-top: 3px solid #ccc; }

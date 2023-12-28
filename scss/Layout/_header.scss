@@ -17,4 +17,10 @@
 		background-position: 0 -360px;
 		background-attachment: fixed;
 	}
+
+	&.blog {
+		background: bg-img-dark-overlay('../img/image3.jpg');
+		background-position: 0 -360px;
+		background-attachment: fixed;
+	}
 }
