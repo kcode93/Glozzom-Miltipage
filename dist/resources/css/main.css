@@ -9477,6 +9477,15 @@ textarea.form-control-lg {
     #blog .card .card-body h4, #blog .card .card-body .h4 {
       font-weight: bold; }
 
+#contact.contact-us .card-left {
+  height: 100%;
+  margin-bottom: 1rem; }
+  #contact.contact-us .card-left .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%; }
+
 #main-footer {
   border-top: 3px solid #ccc; }
 

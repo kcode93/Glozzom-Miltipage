@@ -218,3 +218,19 @@
 		}
 	}
 }
+
+#contact {
+	&.contact-us {
+		.card-left {
+			height: 100%;
+			margin-bottom: 1rem;
+
+			.card-body {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				height: 100%;
+			}
+		}
+	}
+}
